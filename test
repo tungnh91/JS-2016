@@ -1,0 +1,8 @@
+var string = "10,9,8,7,6,5,4,3,2,1,Zero, Dammit!"
+
+var modifiedString = string.split(",").slice(0,-1)
+var modifiedString2 = modifiedString.toString();
+var modifiedString3 = modifiedString2 += "!";
+//var modifiedString3 = modifiedString2.join(',');
+
+console.log(modifiedString3);
